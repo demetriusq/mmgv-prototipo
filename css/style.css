@@ -1,0 +1,85 @@
+body {
+  font-family: "Plau-Regular",Helvetica,Arial,sans-serif;
+  color: #FFF;
+  background-color: transparent;
+  margin: 0px;
+}
+
+
+section {
+  padding-top: 100px;
+  width: 100%;
+  height: 800px;
+  overflow-y: auto;
+  color: #ffffff;
+}
+
+.container {
+  height: 100%;
+}
+margin: 0px auto;
+
+@media (min-width: 768px) {
+  .container {
+    width: 680px;
+  }
+}
+
+/* Menu #menu-principal */
+.nav > li a:not([id=btn-mmgv]) {
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-default {
+    background-color: transparent;
+    border: Opx none;
+    margin-top: 50px;
+  }
+}
+/**/
+
+/* Section-home */
+section#home {
+  background-color: #EE3F60;
+}
+/**/
+
+/* Section-como-podemos-ajudar */
+section#ajudar {
+  background-color: #F3B518;
+}
+/**/
+
+/* Section-porque-somos-diferentes */
+section#diferentes {
+  background-color: #39BA9C;
+}
+/**/
+
+/* Section-Trabalhos */
+section#trabalhos {
+  background-color: #5F6E73;
+}
+.thumbnail{
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: medium none;
+  
+}
+.tech-work {
+  margin: 0px 5px;
+  padding: 0px;
+  list-style-type: none;
+  text-align: right;
+}
+.tech-work li {
+  display: inline;
+}
+/**/
+
+/* Section-contato */
+section#contato {
+  background-color: #F0F0F0;
+}
+/**/

@@ -1,0 +1,31 @@
+section {
+	padding-top:100px;
+	width: 100%;
+	height: 900px;
+	overflow-y: auto;
+  color: #ffffff;
+}
+
+.container {
+
+	height: 100%;
+	margin-left: 20%;
+	margin-right: 20%;
+	background-color: blue;
+}
+
+#mmgv {
+	background-color: #EE3F60;
+}
+
+#ajudar {
+	background-color: #F3B518;
+}
+
+#diferentes {
+	background-color: #39BA9C;
+}
+
+#contato {
+	background-color: #F0F0F0;
+}
